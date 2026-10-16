@@ -1,0 +1,8 @@
+# Détecteur de phishing + application Streamlit
+# Installation :  pip install -r requirements.txt   (Python 3.10 à 3.13)
+tensorflow>=2.16,<3      # réseau de neurones (Keras 3 inclus)
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+joblib>=1.3
+streamlit>=1.40

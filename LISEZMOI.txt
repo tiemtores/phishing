@@ -1,0 +1,8 @@
+Détecteur de phishing - mode d'emploi
+1. pip install -r requirements.txt
+2. python phishing_debutant.py      (entraîne le modèle, une seule fois)
+   -> crée mon_modele_phishing.keras, mon_normaliseur.joblib, metriques.json
+3. streamlit run app_phishing.py    (ouvre l'application dans le navigateur)
+
+outils_url.py : calcul des 10 variables, partagé par le script et l'application.
+Relancer l'étape 2 après toute modification du script d'entraînement.
