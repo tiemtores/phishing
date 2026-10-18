@@ -24,7 +24,7 @@ import keras                              # noqa: E402
 
 from outils_url import mesurer_url, extraire_hote   # noqa: E402
 
-st.set_page_config(page_title="Détecteur de phishing", page_icon="🛡️",
+st.set_page_config(page_title="Détecteur de phishing", page_icon="phishing.png",
                    layout="wide")
 
 FICHIERS = ["mon_modele_phishing.keras", "mon_normaliseur.joblib",
